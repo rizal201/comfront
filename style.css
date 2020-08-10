@@ -7,16 +7,25 @@
 }
 
 .download {
-    width: 70pz;
-    height: 9px;
     font-weight: 600;
     font-style: normal;
     text-align: center;
     color: #432b87;
-    width: 110px;
-    height: 46px;
     border-radius: 4px;
     border: solid 2px #432b87;
+}
+
+@media (min-width: 576px) {
+    .download {
+        right: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .download {
+        width: 125px;
+        right: 20px;
+    }
 }
 
 .nav-link {
@@ -24,27 +33,43 @@
     margin-right: 42px;
 }
 
-.nav {
-    padding: 3rem;
-}
-
 .play1 {
     color: white;
-    background-color: #6cbb01;
+    background-color: #73c700;
+    font-weight: 500;
 }
 
-.down {
-    color: white;
-    background-color: #6cbb01;
+.content1 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 
 .about {
+    padding-bottom: 2rem;
     padding-top: 10rem;
 }
 
+.imgabout {
+    position: relative;
+}
+
+.serpro {
+    padding: 20px;
+}
+
 .service {
-    padding-top: 12rem;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
     text-align: center;
+}
+
+.product {
+    position: relative;
+}
+
+.card-title {
+    margin-left: 6rem;
 }
 
 .hr {
@@ -54,15 +79,19 @@
 }
 
 .dono {
-    margin-left: 65px;
+    margin-left: 7rem;
 }
 
-.ceo {
-    margin-left: 65px;
+.CEO {
+    margin-left: 7rem;
+}
+
+.test {
+    margin-bottom: 20px;
 }
 
 .testimoni {
-    height: 528px;
+    padding: 110px 0px;
     background-color: #fafafa;
     padding-top: 6rem;
 }
@@ -72,11 +101,15 @@
     ;
 }
 
+.articel-card {
+    padding-top: 120px 0px;
+}
+
 .people {
     background-color: #432b87;
     border-radius: 50px;
     color: white;
-    margin-left: 15rem;
+    margin-left: 16rem;
     position: absolute;
 }
 
@@ -84,49 +117,13 @@ a {
     text-decoration: none;
 }
 
-.control-testimoni {
-    text-align: center;
-    padding: 10px 0;
-    position: absolute;
-    z-index: 99;
-    left: 0;
-    right: 0;
-    margin-right: 0;
-    margin-left: 0;
-    width: 99%;
-}
-
-.control-testimoni a {
-    cursor: pointer;
-    width: 15px;
-    height: 15px;
-    display: inline-block;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: #757575;
-}
-
-.control-testimoni a.active {
-    background: #1d3954;
-    opacity: 0.5
-}
-
-.control-testimoni a.active1 {
-    background: #432b87;
-}
-
-.control-testimoni a.active2 {
-    background: #1d3954;
-    opacity: 0.5;
-}
-
 .new {
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .hr1 {
-    width: 40px;
+    width: 45px;
     height: 2px;
     background-color: #ff7800;
     margin-top: 2rem;
@@ -135,21 +132,15 @@ a {
 .read {
     color: #432b87;
     font-weight: bold;
+    float: right;
 }
 
 .p {
-    font-weight: 800;
     color: white;
-    font-weight: 400;
-    padding: 2px;
-}
-
-.button {
-    padding: 20px;
+    font-weight: 600;
 }
 
 .button1 {
-    width: 190px;
     height: 50px;
     border-radius: 4px;
     background-color: #432b87;
@@ -157,27 +148,27 @@ a {
 }
 
 .app {
-    padding: 20px;
-    height: 350px;
+    display: flex;
+    align-items: center;
+    min-height: 245px;
     background-color: #fafafa;
-}
-
-.download-app {
-    margin-top: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .button2 {
-    margin-top: 6rem;
-    margin-left: 11rem;
+    justify-content: right;
+    padding: 28px 0px;
 }
 
 .button3 {
     background-color: #73c700;
     color: white;
+    font-weight: 500;
 }
 
 .footer {
-    padding: 100px;
+    padding: 100px 0;
 }
 
 
