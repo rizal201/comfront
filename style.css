@@ -1,5 +1,4 @@
 .blogmusik {
-    height: 9px;
     font-weight: 600;
     font-style: normal;
     text-align: right;
@@ -10,23 +9,16 @@
     font-weight: 600;
     font-style: normal;
     text-align: center;
-    color: #432b87;
     border-radius: 4px;
     border: solid 2px #432b87;
 }
 
-@media (min-width: 576px) {
-    .download {
-        right: 20px;
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
     }
-}
+ }
 
-@media (min-width: 768px) {
-    .download {
-        width: 125px;
-        right: 20px;
-    }
-}
 
 .nav-link {
     text-transform: uppercase;
@@ -69,9 +61,6 @@
     position: relative;
 }
 
-.card-title {
-    margin-left: 6rem;
-}
 
 .hr {
     height: 2px;
@@ -103,15 +92,14 @@
 
 p {
     font-weight: normal;
-    padding: 10px;
 }
 
 .dono {
-    margin-left: 3rem;
+    margin-right: 1rem;
 }
 
 .CEO {
-    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .people {
@@ -119,7 +107,7 @@ p {
     border-radius: 50px;
     color: white;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 20px;
     position: absolute;
 }
 
