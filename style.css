@@ -115,7 +115,8 @@ p {
     border-radius: 50px;
     color:white;
     margin-left: 10px;
-    position: relative;
+    margin-top: 40px;
+    position: absolute;
 }
 
 .card {
