@@ -1,8 +1,8 @@
 .blogmusik {
     font-weight: 600;
     font-style: normal;
-    text-align: right;
     color: #261d40;
+    align-items: left;
 }
 
 .download {
@@ -11,6 +11,7 @@
     text-align: center;
     border-radius: 4px;
     border: solid 2px #432b87;
+    width: 100%;
 }
 
 @media (min-width: 992px) { 
@@ -71,11 +72,13 @@
 .testimoni {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: #fafafa;
+    background: rgba(252, 252, 252, 0.973);
 }
 
 .box {
     background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .swiper-container {
@@ -88,6 +91,11 @@
 .swiper-slide {
     text-align: center;
     font-size: 16px;
+}
+
+.padding{
+    padding-top: 20px;
+    padding-bottom: 20x;
 }
 
 p {
@@ -105,19 +113,23 @@ p {
 .people {
     background-color: #432b87;
     border-radius: 50px;
-    color: white;
-    margin-top: 50px;
-    margin-left: 20px;
-    position: absolute;
+    color:white;
+    margin-left: 10px;
+    position: relative;
 }
 
 .card {
-    box-shadow: 0px 10px 30px 0 rgba(67, 43, 135, 0.1);
+    box-shadow: 0px 10px 30px 0 rgba(61, 40, 119, 0.1);
+   margin-top: 5px;
+   margin-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px
     ;
 }
 
 .articel-card {
-    padding-top: 120px 0px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 a {
@@ -159,8 +171,6 @@ a {
     align-items: center;
     min-height: 245px;
     background-color: #fafafa;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .cta {
@@ -169,9 +179,8 @@ a {
 }
 
 .button2 {
-    justify-content: right;
-    padding: 28px 0px;
-    padding-left: 60px;
+    padding:100px 0;
+    padding-top: 25px;
 }
 
 .button3 {
