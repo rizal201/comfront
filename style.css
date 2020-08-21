@@ -70,8 +70,8 @@
 }
 
 .testimoni {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 6.5rem;
+    padding-bottom: 7rem;
     background: rgba(252, 252, 252, 0.973);
 }
 
@@ -116,6 +116,7 @@ p {
     color:white;
     margin-left: 10px;
     margin-top: 40px;
+
     position: absolute;
 }
 
@@ -174,14 +175,18 @@ a {
     background-color: #fafafa;
 }
 
+.download-app{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
 .cta {
     color: #261d40;
     font-size: 40px;
 }
 
 .button2 {
-    padding:100px 0;
-    padding-top: 25px;
+    padding-top: 7rem;
 }
 
 .button3 {
