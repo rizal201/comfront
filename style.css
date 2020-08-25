@@ -29,6 +29,16 @@
     margin-right: 42px;
 }
 
+@media screen and (max-width: 580px){
+    .hero{
+        opacity: 0.9;
+    }
+}
+
+.far{
+    font-size: 18px;
+}
+
 .play1 {
     color: white;
     background-color: #73c700;
@@ -141,7 +151,7 @@ p {
 
 .articel-card {
     padding-left: 15px;
-    padding-right: 25px;
+    padding-right: 35px;
     color: #261d40;
 }
 
@@ -180,6 +190,7 @@ a {
 }
 
 .app {
+    padding-right: 23px;
     min-height: 245px;
     background-color: #fafafa;
 }
