@@ -24,7 +24,6 @@
     }
  }
 
-
 .nav-link {
     text-transform: uppercase;
     margin-right: 42px;
@@ -33,7 +32,7 @@
 .play1 {
     color: white;
     background-color: #73c700;
-    font-weight: 500;
+    font-size: 16px;
     padding-right: 18px;
 }
 
@@ -44,7 +43,7 @@
 }
 
 .about {
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     padding-top: 10rem;
 }
 
@@ -83,7 +82,7 @@
 
 .testimoni {
     padding-top: 6.5rem;
-    padding-bottom: 7rem;
+    padding-bottom: 6.5rem;
     background: rgba(252, 252, 252, 0.973);
 }
 
@@ -92,7 +91,6 @@
 }
 
 .box {
-    padding: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 19px;
@@ -108,11 +106,6 @@
 .swiper-slide {
     text-align: center;
     font-size: 16px;
-}
-
-.padding{
-    padding-top: 20px;
-    padding-bottom: 20x;
 }
 
 .font{
@@ -147,8 +140,9 @@ p {
 }
 
 .articel-card {
-    padding-left: 10px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+    color: #261d40;
 }
 
 a {
@@ -156,7 +150,7 @@ a {
 }
 
 .new {
-    padding-top: 5rem;
+    padding-top: 7rem;
     padding-bottom: 3rem;
 }
 
@@ -186,8 +180,6 @@ a {
 }
 
 .app {
-    display: flex;
-    align-items: center;
     min-height: 245px;
     background-color: #fafafa;
 }
@@ -199,11 +191,23 @@ a {
 
 .cta {
     color: #261d40;
+    font-weight: normal;
     font-size: 40px;
 }
 
+.cta-teks{
+    font-size: 18px;
+}
+
+@media screen and (min-width:770px){
+    .button2{
+        padding-top: 75px;
+        font-size: 20px;
+    }
+}
+
 .button2 {
-    padding-top: 9rem;
+    padding-bottom: 55px;
 }
 
 .button3 {
