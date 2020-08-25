@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 580px){
     .hero{
-        opacity: 0.9;
+        opacity: 0.8;
     }
 }
 
@@ -46,15 +46,21 @@
     padding-right: 18px;
 }
 
+
+@media screen and (max-width: 1376px){
+    .content1{
+        padding-top: 70px;
+    }
+}
+
 .content1 {
-    padding-top: 70px;
     padding-bottom: 50px;
     justify-content: center;
 }
 
 .about {
     padding-bottom: 5rem;
-    padding-top: 10rem;
+    padding-top: 13rem;
 }
 
 
@@ -190,7 +196,7 @@ a {
 }
 
 .app {
-    padding-right: 23px;
+    padding-right: 20px;
     min-height: 245px;
     background-color: #fafafa;
 }
