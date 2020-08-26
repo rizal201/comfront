@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
     <link rel="icon" href="img/logo@4x.png" type="image/icon type">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="../package/swiper-bundle.min.css">
@@ -27,7 +28,7 @@
     <!-- header -->
     <header id="header" class="header">
         <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light mt-4" style="z-index:1;">
+                <nav class="navbar navbar-expand-md navbar-light mt-4" style="z-index:1;">
                         <img src="img/logo.png" alt="">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
@@ -47,57 +48,65 @@
 
         <div class="banner">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-7 hero">
-                        <img src="img/img-hero.png" class="img-fluid" class="img-banner" alt="Responsive image" style=" position: absolute; left: 0; margin-top: -84px;">
-                    </div>
-                    <div class=" content col-md-5 mt-5">
-                        <div class="content1">
-                            <h1 class="Display-4">Your Next Product <br> Development</h1>
-                            <p class="text-secondary mt-5 far">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-                            <a href="#"><button type="button" class="btn btn play1 mt-5 text-right "><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
-                                </svg>GOGGLE PLAY</button></a>
+                <div class="menu">
+                    <div class="transition">
+                        <div class="row">
+                            <div class="col-md-7 hero">
+                                <img src="img/img-hero.png" class="img-fluid" class="img-banner" alt="Responsive image" style=" position: absolute; left: 0; margin-top: -84px;">
+                            </div>
+                            <div class=" content col-md-5 mt-5">
+                                <div class="content1">
+                                    <h1 class="Display-4">Your Next Product <br> Development</h1>
+                                    <p class="text-secondary mt-5 far">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+                                    <a href="#"><button type="button" class="btn btn play1 mt-5 text-right "><svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.596 8.697l-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                        </svg>GOGGLE PLAY</button></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </section>
     </header>
     <section id="about" class="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <img src="img/img-about.png" class="img-fluid" alt="Responsive image" class="imgabout">
-                </div>
-                <div class="col-md-5 mt-5">
-                    <h1 class="mt-5 abpro">About Product</h1>
-                    <p class="text-secondary mt-5"> Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXPin, etc.</p>
-                    <p class="text-secondary"> Build a wireframe with Platforma, upload it to one of these apps, mark any action and transition and make it live! </p>
+            <div data-aos="fade-right">
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="img/img-about.png" class="img-fluid" alt="Responsive image" class="imgabout">
+                    </div>
+                    <div class="col-md-5 mt-5">
+                        <h1 class="mt-5 abpro">About Product</h1>
+                        <p class="text-secondary mt-5"> Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXPin, etc.</p>
+                        <p class="text-secondary"> Build a wireframe with Platforma, upload it to one of these apps, mark any action and transition and make it live! </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <section id="service-product" class="service">
         <div class="container">
-            <h1 class="color-ser">Service's Product</h1>
-            <hr class="hr">
-            <div class="row serpro">
-                <div class="col-md-4">
-                    <img src="img/icon-1.png" alt="" class="product">
-                    <h2 class="mt-4">Business Travelling</h2>
-                    <p class="mt-4" style="position: relative;">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/icon-2.png" alt="" class="product">
-                    <h2 class="mt-4">World Widge</h2>
-                    <p class="mt-4">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="img/icon-3.png" alt="" class="product">
-                    <h2 class="mt-4">List Travelling</h2>
-                    <p class="mt-4">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
+                <div data-aos="fade-up"
+         data-aos-duration="800">
+                <h1 class="color-ser">Service's Product</h1>
+                <hr class="hr">
+                <div class="row serpro">
+                    <div class="col-md-4">
+                        <img src="img/icon-1.png" alt="" class="product">
+                        <h2 class="mt-4">Business Travelling</h2>
+                        <p class="mt-4" style="position: relative;">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/icon-2.png" alt="" class="product">
+                        <h2 class="mt-4">World Widge</h2>
+                        <p class="mt-4">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/icon-3.png" alt="" class="product">
+                        <h2 class="mt-4">List Travelling</h2>
+                        <p class="mt-4">Start your project right with distinct prototype, easily made with Platforma’s huge layout library.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,6 +122,7 @@
                                         <div class="card">
                                             <div class="card-body text-secondary">
                                                 <div class="opacity">
+
                                                     <p class="text pr-2"><i class="font">Platforma is a perfect instrument for creating an interactive prototype using many popular online tools like Invision, Marvel, UXPin, etc.</i>
                                                         <svg class="people" style="opacity: 0.3;" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
@@ -121,6 +131,7 @@
                                                         </svg>
                                                         <h5 class="card-title dono">Dono Nakata</h5>
                                                         <p class="CEO">CEO Warkop DKI</p>
+                                                        
                                                     </p>
                                                  </div>
                                             </div>
@@ -309,51 +320,54 @@
 
     <section id="news" class="new">
         <div class="container">
-            <h2 class="text-center">What The New's</h2>
-            <hr class="hr1">
-            <div class="articel-card">
-                <div class="row mt-lg-5 ml-2">
-                    <div class="col-md-3 pt-3 pb-4">
-                        <div class="img">
-                            <img src="img/img-1.png " class="card-img-top ">
-                            <div class="card-body">
-                                <h5 class="card-title ">Title Article</h5>
-                                <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
-                                <br> <a class="read " href="# ">Read more</a>
+            <div data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
+                    <h2 class="text-center">What The New's</h2>
+                    <hr class="hr1">
+                    <div class="articel-card">
+                        <div class="row mt-lg-5 ml-2">
+                            <div class="col-md-3 pt-3 pb-4">
+                                <div class="img">
+                                    <img src="img/img-1.png " class="card-img-top ">
+                                    <div class="card-body">
+                                        <h5 class="card-title ">Title Article</h5>
+                                        <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
+                                        <br> <a class="read " href="# ">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 pt-3 pb-4 ">
+                                <div class="img ">
+                                    <img src="img/img-2.png " class="card-img-top ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Title Article</h5>
+                                        <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
+                                        <br> <a class="read " href="# ">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 pt-3 pb-4 ">
+                                <div class="img ">
+                                    <img src="img/img-3.png " class="card-img-top ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Title Article</h5>
+                                        <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
+                                        <br><a class="read " href="# ">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 pt-3 pb-4 ">
+                                <div class="img ">
+                                    <img src="img/img-4.png " class="card-img-top ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title ">Title Article</h5>
+                                        <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
+                                        <br> <a class="read " href="# " style="float: right; ">Read more</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 pt-3 pb-4 ">
-                        <div class="img ">
-                            <img src="img/img-2.png " class="card-img-top ">
-                            <div class="card-body ">
-                                <h5 class="card-title ">Title Article</h5>
-                                <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
-                                <br> <a class="read " href="# ">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 pt-3 pb-4 ">
-                        <div class="img ">
-                            <img src="img/img-3.png " class="card-img-top ">
-                            <div class="card-body ">
-                                <h5 class="card-title ">Title Article</h5>
-                                <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
-                                <br><a class="read " href="# ">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 pt-3 pb-4 ">
-                        <div class="img ">
-                            <img src="img/img-4.png " class="card-img-top ">
-                            <div class="card-body ">
-                                <h5 class="card-title ">Title Article</h5>
-                                <p class="card-text ">Start your project right with distinct prototype, easily made.</p>
-                                <br> <a class="read " href="# " style="float: right; ">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <section class="button mt-5 " id="button ">
@@ -422,18 +436,38 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Swiper JS -->
     <script src="../package/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper('.swiper-container', {
-            pagination: {
+             breakpoints: {
+                pagination: {
+    // when window width is >= 320px
+                    320: {
+                      slidesPerView: 2,
+                      spaceBetween: 20
+                    },
+                    // when window width is >= 480px
+                                    480: {
+                      slidesPerView: 3,
+                      spaceBetween: 30
+                    },
+                    // when window width is >= 640px
+                    640: {
+                      slidesPerView: 4,
+                      spaceBetween: 40
+                    }
+                 }
 
             },
         });
     </script>
-
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>

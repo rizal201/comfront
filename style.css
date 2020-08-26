@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 580px){
     .hero{
-        opacity: 0.8;
+        opacity: 0.9;
     }
 }
 
@@ -47,11 +47,24 @@
 }
 
 
-@media screen and (max-width: 1376px){
+@media screen and (max-width: 1367px){
     .content1{
         padding-top: 70px;
     }
+
+
+    .transition{
+        transition: margin-right 1s;
+    }
+
+@media screen and (min-width: 992px){
+
+    .menu:hover .transition {
+        margin-right: 100px;
+    }
 }
+
+.tr
 
 .content1 {
     padding-bottom: 50px;
@@ -60,7 +73,7 @@
 
 .about {
     padding-bottom: 5rem;
-    padding-top: 13rem;
+    padding-top: 16rem;
 }
 
 
@@ -144,8 +157,7 @@ p {
     background-color: #432b87;
     border-radius: 50px;
     color:white;
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
     position: absolute;
 }
 
