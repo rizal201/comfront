@@ -29,7 +29,7 @@
     margin-right: 42px;
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 576px){
     .hero{
         opacity: 0.9;
     }
@@ -49,13 +49,14 @@
 
 @media screen and (max-width: 1367px){
     .content1{
-        padding-top: 70px;
+        padding: 40px;
     }
 
 
     .transition{
         transition: margin-right 1s;
     }
+}
 
 @media screen and (min-width: 992px){
 
@@ -67,7 +68,7 @@
 .tr
 
 .content1 {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     justify-content: center;
 }
 
@@ -250,5 +251,3 @@ a {
     padding: 100px 0;
 }
 
-
-/*  */
